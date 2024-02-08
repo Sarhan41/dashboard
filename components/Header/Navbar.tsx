@@ -23,7 +23,7 @@ const Nabar = async () => {
       {/* 
       //! overflow-x-scoll is a temporary fix of responsive issue, you have to make different popup menu for mobile
       */}
-      <div className="flex h-16 items-center px-4 overflow-x-scroll">
+      <div className="flex h-16 items-center px-4 max-sm:overflow-x-scroll">
         <StoreSwitcher items={stores}/>
         <MainNav className="mx-6" />
         <div className="ml-auto flex items-center ">
