@@ -56,8 +56,8 @@ export const AlertModal: React.FC<AlertModalProps> = ({
       onClose={onClose}
     >
       <h2 className="text-base font-medium  tracking-tight">
-        Enter "
-        <span className="text-base font-bold font-serif ">{DeleteText}</span>" to
+        Enter &quot;
+        <span className="text-base font-bold font-serif ">{DeleteText}</span>&quot; to
         Continue
       </h2>
       <Input
